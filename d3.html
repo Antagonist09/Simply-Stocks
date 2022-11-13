@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Simply Stocks</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="d3.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <h1>Simply Stocks</h1>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">inventory</span> Menu
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            
+            <a href='file:///C:/Users/admin/Desktop/d2.html' class="btn">
+              <div class="button1">
+                Dashboard
+              </a>
+              </div>
+            
+          </li>
+          <li class="sidebar-list-item">
+            <a href='file:///C:/Users/admin/Desktop/d3.html' class="btn">
+              <div class="button1">
+                Buy & Sell
+              </a>
+              </div>
+             
+              <li class="sidebar-list-item">
+                <a href='file:///C:/Users/admin/Desktop/d4.html' class="btn">
+                  <div class="button1">
+                    Predictions
+                  </a>
+                  </div>
+              <li class="sidebar-list-item">
+                    <a href='file:///C:/Users/admin/Desktop/d5.html' class="btn">
+                      <div class="button1">
+                        News
+                      </a>
+                      </div>
+                      <li class="sidebar-list-item">
+                        <a href='file:///C:/Users/admin/Desktop/d6.html' class="btn">
+                          <div class="button1">
+                            LogOut
+                          </a>
+                          </div>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">BUY & SELL</p>
+        </div>
+        <div class="main-cards">
+        </div>
+
+        <!-- Tata -->
+        <ul>
+          <li>
+            Tata Company
+          </li>
+        </ul>
+         
+          <div class="charts">
+
+            <div class="charts-card">
+              <p class="chart-title">Shares</p>
+              <div id="bar-chart2"></div>
+            </div>
+            <a href='#' class="button">
+              <div class="button01">
+               Buy
+               </a>
+               </div>
+               <a href='#' class="button">
+                <div class="button02">
+                 Sell
+                 </a>
+                 </div>
+            <br>
+            <br>
+            <br>
+          
+          
+            <!--jio  -->
+          <ul>
+              <li>
+                Jio
+              </li>
+            </ul>
+            
+            <div class="charts">
+
+              <div class="charts-card">
+                <p class="chart-title">Shares</p>
+                <div id="bar-chart3"></div>
+              </div>
+              <a href='#' class="button">
+                <div class="button01">
+                 Buy
+                 </a>
+                 </div>
+                 <a href='#' class="button">
+                  <div class="button02">
+                   Sell
+                   </a>
+                   </div>
+              <br>
+              <br>
+              <br>
+             
+               
+              <!--Mahindra  -->
+          <ul>
+            <li>
+              Mahindra
+            </li>
+          </ul>
+          
+          <div class="charts">
+
+            <div class="charts-card">
+              <p class="chart-title">Shares</p>
+              <div id="bar-chart4"></div>
+            </div>
+            <a href='#' class="button">
+              <div class="button01">
+               Buy
+               </a>
+               </div>
+               <a href='#' class="button">
+                <div class="button02">
+                 Sell
+                 </a>
+                 </div>
+                 <br>
+                 <br>
+                 <br>
+
+                 <!--Ambuja  -->
+          <ul>
+            <li>
+              Ambuja
+            </li>
+          </ul>
+          
+          <div class="charts">
+
+            <div class="charts-card">
+              <p class="chart-title">Shares</p>
+              <div id="bar-chart5"></div>
+            </div>
+            <a href='#' class="button">
+              <div class="button01">
+               Buy
+               </a>
+               </div>
+               <a href='#' class="button">
+                <div class="button02">
+                 Sell
+                 </a>
+                 </div>
+                 <br>
+                 <br>
+                 <br>
+
+            <!--Bajaj  -->
+          <ul>
+            <li>
+              Bajaj
+            </li>
+          </ul>
+          
+          <div class="charts">
+
+            <div class="charts-card">
+              <p class="chart-title">Shares</p>
+              <div id="bar-chart6"></div>
+            </div>
+            <a href='#' class="button">
+              <div class="button01">
+               Buy
+               </a>
+               </div>
+               <a href='#' class="button">
+                <div class="button02">
+                 Sell
+                 </a>
+                 </div>
+                 <br>
+                 <br>
+                 <br>
+          
+
+        </div>
+      </main>
+      <!-- End Main -->
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ApexCharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.3/apexcharts.min.js"></script>
+    <!-- Custom JS -->
+    <script src="d3.js"></script>
+  </body>
+</html>

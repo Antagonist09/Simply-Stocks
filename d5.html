@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Simply Stocks</title>
+
+    <!-- Montserrat Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="d5.css">
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+          <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+          <h1>Simply Stocks</h1>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title">
+          <div class="sidebar-brand">
+            <span class="material-icons-outlined">inventory</span> Menu
+          </div>
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+
+        <ul class="sidebar-list">
+          <li class="sidebar-list-item">
+            
+            <a href='file:///C:/Users/admin/Desktop/d2.html' class="btn">
+              <div class="button1">
+                Dashboard
+              </a>
+              </div>
+            
+          </li>
+          <li class="sidebar-list-item">
+            <a href='file:///C:/Users/admin/Desktop/d3.html' class="btn">
+              <div class="button1">
+                Buy & Sell
+              </a>
+              </div>
+             
+          </li>
+          <li class="sidebar-list-item">
+            <a href='file:///C:/Users/admin/Desktop/d4.html' class="btn">
+              <div class="button1">
+                Predictions
+              </a>
+              </div>
+           <li class="sidebar-list-item">
+                <a href='file:///C:/Users/admin/Desktop/d5.html' class="btn">
+                  <div class="button1">
+                    News
+                  </a>
+                  </div>
+                  <li class="sidebar-list-item">
+                    <a href='file:///C:/Users/admin/Desktop/d6.html' class="btn">
+                      <div class="button1">
+                        LogOut
+                      </a>
+                      </div>
+        </ul>
+      </aside>
+      <!-- End Sidebar -->
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">News</p>
+        </div>
+        
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="News01.jpg" style="width:100%">
+      <div class="text">Jio</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="News02.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="News03.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="News04.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="News05.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+</div>
+</main>
+<!-- End Main -->
+
+</div>
+
+
+  <script src="d5.js"></script>
